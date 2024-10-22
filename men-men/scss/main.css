@@ -1,0 +1,239 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(57, 54, 113, 0.7)), to(rgba(57, 54, 113, 0.7))), url(../img/men.png), url(../img/bacgroundgradient.png);
+  background-image: linear-gradient(rgba(57, 54, 113, 0.7), rgba(57, 54, 113, 0.7)), url(../img/men.png), url(../img/bacgroundgradient.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+}
+
+header .left img {
+  text-align: center;
+  margin-left: 10px;
+}
+
+header h3 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 30px;
+}
+
+header h5 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 100px;
+}
+
+header h6 {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+header h6:hover {
+  color: #0FC2F8;
+}
+
+header p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: right;
+  margin-bottom: 160px;
+}
+
+header .right {
+  text-align: right;
+}
+
+header .right a {
+  color: white;
+}
+
+header .right a:hover {
+  color: #0FC2F8;
+}
+
+header .h3 {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+header .navbar img {
+  margin-right: 580px;
+}
+
+header .navbar ul li a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+header .navbar ul li a:hover {
+  color: #0FC2F8;
+}
+
+@media (max-width: 1201px) {
+  header .navbar img {
+    margin-right: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+  header .navbar ul li {
+    margin-right: 0px !important;
+  }
+  header .navbar ul li:first-child {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 769px) {
+  header .navbar img {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 512px) {
+  header {
+    padding-bottom: 60px;
+  }
+  header h3 {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  header h1 {
+    font-size: 30px;
+  }
+  header h5 {
+    font-size: 18px;
+    margin-bottom: 80px;
+  }
+  header h6 {
+    font-size: 15px;
+  }
+  header p {
+    font-size: 18px;
+    margin-bottom: 80px;
+  }
+  header .h3 {
+    font-size: 25px;
+  }
+  header .navbar ul li a {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
